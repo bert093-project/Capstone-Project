@@ -53,7 +53,7 @@ WORKDIR /app
 
 # Set production environment variables
 ENV NODE_ENV=production
-ENV PORT=8081
+ENV PORT=3001
 ENV HOSTNAME="0.0.0.0"
 
 # Next.js collects completely anonymous telemetry data about general usage.
@@ -80,8 +80,8 @@ COPY --from=builder --chown=bun:bun /app/.next/static ./.next/static
 # Switch to non-root user for security best practices
 USER bun
 
-# Expose port 8081 to allow HTTP traffic
-EXPOSE 8081
+# Expose port 3001 to allow HTTP traffic
+EXPOSE 3001
 
 # Start Next.js standalone server with Bun
 CMD ["bun", "server.js"]
