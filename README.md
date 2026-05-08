@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+<h1>Capstone Project</h1>
+</div>
 
-## Getting Started
+## Requirements
 
-First, run the development server:
+Make sure you have the following installed on your system:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+```
+Git (2.54.0 or newer)
+Bun (1.3.13 or newer)
+```
+
+## How To Run This Project
+
+1. Clone repository
+
+```
+git clone https://github.com/bert093-project/Capstone-Project
+cd Capstone-Project
+```
+
+2. Install package/dependency:
+
+```
+bun i (or bun install)
+```
+
+3. Run the development server:
+
+```
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<details>
+<summary>An alternative method if you're comfortable with Docker (docker-compose.yaml)</summary>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install Docker
 
-## Learn More
+If you're using an Arch Linux-based distribution, you can install it directly by running:
 
-To learn more about Next.js, take a look at the following resources:
+```
+sudo pacman -S docker
+sudo pacman -S docker-buildx (New docker engine)
+sudo systemctl enable --now Docker.service (Enable docker service)
+sudo usermod -aG docker $USER (configure user permission)
+newgrp docker (applying changes. MUST RESTART after doing this)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Run the docker-compose.yaml
+you can run Docker Compose with
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+docker compose up -d (Running in the background)
+```
 
-## Deploy on Vercel
+3. See the development server
+you can see the development server active in
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+http://localhost:3001
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+</details>
+
+## TechStack
+- Next.js
+- React.js
+- Tailwind CSS
+- Typescript
+- Bun
+- Docker (Dockerfile, docker-compose.yaml, .dockerignore)
+- Ubuntu Server (Without Desktop Environment)
+
+## Tools or Software Used In This Project
+- OpenSSH (Client + Server)
+- Tailscale
+- Lazygit
+- Lazydocker
+- Dokploy
+- Cloudflared
+
+## References
+
+## Folder Structure
