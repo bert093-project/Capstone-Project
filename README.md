@@ -35,6 +35,8 @@ bun dev
 <details>
 <summary>An alternative method if you're comfortable with Docker (docker-compose.yaml)</summary>
 
+<br>
+
 1. Install Docker
 
 If you're using an Arch Linux-based distribution, you can install it directly by running:
@@ -48,13 +50,15 @@ newgrp docker (applying changes. MUST RESTART after doing this)
 ```
 
 2. Run the docker-compose.yaml
-you can run Docker Compose with
+
+and then you can run Docker Compose with
 
 ```
 docker compose up -d (Running in the background)
 ```
 
 3. See the development server
+
 you can see the development server active in
 
 ```
