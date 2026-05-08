@@ -43,6 +43,7 @@ If you're using an Arch Linux-based distribution, you can install it directly by
 
 ```
 sudo pacman -S docker
+sudo pacman -S docker-compose
 sudo pacman -S docker-buildx (New docker engine)
 sudo systemctl enable --now Docker.service (Enable docker service)
 sudo usermod -aG docker $USER (configure user permission)
@@ -67,7 +68,10 @@ http://localhost:3001
 
 </details>
 
-## TechStack
+## How It Works
+![alt_text](project-architecture.webp)
+
+### TechStack & Tools
 - Next.js
 - React.js
 - Tailwind CSS
@@ -75,14 +79,12 @@ http://localhost:3001
 - Bun
 - Docker (Dockerfile, docker-compose.yaml, .dockerignore)
 - Ubuntu Server (Without Desktop Environment)
-
-## Tools or Software Used In This Project
 - OpenSSH (Client + Server)
 - Tailscale
 - Lazygit
 - Lazydocker
 - Dokploy
-- Cloudflared
+- Cloudflared (Cloudflare Tunnel)
 
 ## References
 
