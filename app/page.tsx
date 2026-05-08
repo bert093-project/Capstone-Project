@@ -1,4 +1,6 @@
-import { Geist } from 'next/font/google' 
+'use client'
+import { Geist } from 'next/font/google'
+import CurvedLoop from '../components/CurvedLoop'
 import RealtimeClock from './components/RealtimeClock'
 
 const geistNormal = Geist({
@@ -38,6 +40,13 @@ export default function Home() {
         <div className='flex justify-center items-center text-center min-h-screen text-8xl'>
           <p>Capstone Project</p>
         </div>
+        <CurvedLoop
+          marqueeText='Capstone Project'
+          speed={1.3}
+          curveAmount={0}
+          direction='right'
+          interactive={false}
+        />
       </div>
 
       <div className={geistMedium.className}>
