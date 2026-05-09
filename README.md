@@ -88,4 +88,36 @@ http://localhost:3001
 
 ## References
 
-## Folder Structure
+#### Cloudflare
+- [github.com/cloudflare - cloudflared](https://github.com/cloudflare/cloudflared)
+- [dash.cloudflare.com - Cloudflare dashboard](https://dash.cloudflare.com/)
+- [developers.cloudflare.com - Create a tunnel (dashboard)](https://developers.cloudflare.com/cloudflare-one/networks/connectors/cloudflare-tunnel/get-started/create-remote-tunnel/)
+
+#### Docker
+- [docs.docker.com - Compose file referense](https://docs.docker.com/reference/compose-file)
+- [docs.docker.com - Define services in Docker Compose](https://docs.docker.com/reference/compose-file/services/)
+- [docs.docker.com - Compose Build Specification](https://docs.docker.com/reference/compose-file/build/)
+- [hub.docker.com/cloudflared - cloudflare/cloudflared](https://hub.docker.com/r/cloudflare/cloudflared)
+
+#### Dokploy
+- [github.com/dokploy - dokploy](https://github.com/dokploy/dokploy)
+- [docs.dokploy.com/docs - Installation](https://docs.dokploy.com/docs/core/installation)
+- [templates.dokploy.com - Templates](https://templates.dokploy.com/)
+
+#### Next.js
+- [nextjs.org/docs - Deploying](https://nextjs.org/docs/app/getting-started/deploying)
+
+#### ReactBits
+- [reactbits.dev - Curved Loop](https://reactbits.dev/text-animations/curved-loop?curveAmount=0&interactive=false&speed=1.3&marqueeText=Capstone+Project)
+
+#### react-live-clock
+- [npmjs.com - react-live-clock](https://www.npmjs.com/package/react-live-clock)
+- [github.com - react-live-clock](https://github.com/pvoznyuk/react-live-clock)
+- [https://pvoznyuk.github.io/react-live-clock - React Live Clock Demo](https://pvoznyuk.github.io/react-live-clock/)
+
+#### Timezone
+- [en.wikipedia.org - List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+
+#### Vercel (with-docker)
+- [github.com/vercel - Next.js Docker Example - Standalone Mode](https://github.com/vercel/next.js/tree/canary/examples/with-docker)
+- [github.com/vercel - Official Dockerfile specifically for project using Bun](https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile.bun)
