@@ -86,6 +86,39 @@ http://localhost:3001
 - Dokploy
 - Cloudflared (Cloudflare Tunnel)
 
+## Project Attachments
+
+<details>
+<summary>Click here!</summary>
+
+<br>
+
+### Website
+
+[Capstone Project Website](https://cpkelompoksyahril.my.id
+
+![alt_text](Capstone-Project.webp)
+
+### Dokploy (Docker Compose App)
+
+![alt_text](Dokploy_DockerCompose_Config.webp)
+
+### Cloudflare Zero Trust (Publishabled Application Routes)
+
+![alt_text](Cloudflare-Zero-Trust-publishabled.webp)
+
+### DNS Records
+
+#### cpkelompoksyahril.my.id
+
+![alt_text](DNS-Records-cpkelompoksyahril-my.webp)
+
+#### syahrildokploy.my.id
+
+![alt_text](DNS-Records-syahrildokploy-my.webp)
+
+</details>
+
 ## References
 
 #### Cloudflare
