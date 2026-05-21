@@ -15,20 +15,20 @@ Bun (1.3.13 or newer)
 
 1. Clone repository
 
-```
+```bash
 git clone https://github.com/bert093-project/Capstone-Project
 cd Capstone-Project
 ```
 
 2. Install package/dependency:
 
-```
-bun i (or bun install)
+```bash
+bun i # (or bun install)
 ```
 
 3. Run the development server:
 
-```
+```bash
 bun dev
 ```
 
@@ -41,28 +41,26 @@ bun dev
 
 If you're using an Arch Linux-based distribution, you can install it directly by running:
 
-```
-sudo pacman -S docker
-sudo pacman -S docker-compose
-sudo pacman -S docker-buildx (New docker engine)
-sudo systemctl enable --now Docker.service (Enable docker service)
-sudo usermod -aG docker $USER (configure user permission)
-newgrp docker (applying changes. MUST RESTART after doing this)
+```bash
+sudo pacman -S docker docker-compose docker-buildx
+sudo systemctl enable --now Docker.service # (Enable docker service)
+sudo usermod -aG docker $USER # (configure user permission)
+newgrp docker # (applying changes. MUST RESTART after doing this)
 ```
 
 2. Run the docker-compose.yaml
 
 and then you can run Docker Compose with
 
-```
-docker compose up -d (Running in the background)
+```bash
+docker compose up -d # (Running in the background)
 ```
 
-3. See the development server
+3. See the server
 
-you can see the development server active in
+you can see the server active in
 
-```
+```bash
 http://localhost:3001
 ```
 
