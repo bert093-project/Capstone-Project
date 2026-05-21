@@ -1,4 +1,7 @@
-import { Geist } from 'next/font/google' 
+'use client'
+import { Geist } from 'next/font/google'
+import CurvedLoop from '../components/CurvedLoop'
+import RealtimeClock from './components/RealtimeClock'
 
 const geistNormal = Geist({
   subsets: ['latin'],
@@ -19,17 +22,31 @@ export default function Home() {
   return (
     <main>
       <div className={geistNormal.className}>
-        <div className='m-2 sticky top-0 flex justify-between'>
-          <p>Capstone Project</p>
-          <p>Index</p>
-          <p>©Bumigora University</p>
+        <div className='m-4 top-0 flex justify-between text-lg'>
+          <div className='flex space-x-20'>
+            <p>Capstone Project</p>
+            <p>©Bumigora University</p>
+          </div>
+          <ul>
+            <li>Index</li>
+            <li className='text-neutral-400'>About</li>
+            <li className='text-neutral-400'>Related</li>
+          </ul>
+          <RealtimeClock/>
         </div>
       </div>
-      <hr className='border-black/30 border'/>
+      {/*<hr className='border-black/30 border'/>*/}
       <div className={geistSemibold.className}>
         <div className='flex justify-center items-center text-center min-h-screen text-8xl'>
           <p>Capstone Project</p>
         </div>
+        <CurvedLoop
+          marqueeText='Capstone Project'
+          speed={1.3}
+          curveAmount={0}
+          direction='right'
+          interactive={false}
+        />
       </div>
 
       <div className={geistMedium.className}>
