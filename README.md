@@ -152,3 +152,7 @@ http://localhost:3001
 #### Vercel (with-docker)
 - [github.com/vercel - Next.js Docker Example - Standalone Mode](https://github.com/vercel/next.js/tree/canary/examples/with-docker)
 - [github.com/vercel - Official Dockerfile specifically for project using Bun](https://github.com/vercel/next.js/blob/canary/examples/with-docker/Dockerfile.bun)
+
+#### Important
+- [youtube.com - Howt to Deploy Securely with Cloudflare Zero Trust (No Open Ports!)](https://youtu.be/XQXFEV1BIjc?si=lIcd70F-PuZVxMma&t=19)
+- [docs.dokploy.com - Architecture of Dokploy](https://docs.dokploy.com/docs/core/architecture)
